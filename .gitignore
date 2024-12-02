@@ -1,0 +1,48 @@
+tinyllama-tuned/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch model checkpoints
+*.pt
+*.pth
+model/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch Lightning checkpoints
+lightning_logs/
+
+# PyTorch data caches (for datasets, etc.)
+*.cache/
+
+# Virtual environment directories
+venv/
+ENV/
+env/
+.venv/
+__venv__
+
+# PyCharm project files
+.idea/
+
+# VS Code project files
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
